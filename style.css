@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(68.15deg, #7c7778 16.62%, #c7b0aa 85.61%);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo-imagem {
+    height: 70px;
+}
+
+.box-menu {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #2F2325;
+}
+
+.menu-item {
+    font-family:'Sarala', sans-serif;
+}
+
+.conteudo {
+    border-top: 0.4px solid;
+}
+
+
+.primeira {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    padding-bottom: 18px;
+}
+
+.principal-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-img {
+    margin-top: 20px;
+}
+
+.principal-conteudo h1{
+    font-family:'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.principal-conteudo p{
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.segunda-portfolio {
+    border-top: 0.4px solid;
+}
+
+.titulo-conteudo {
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.segundo-conteudo-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.segundo-conteudo-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.terceira-stacks {
+    border-top: 0.4px solid;
+}
+
+.terceiro-conteudo-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.quarta-contato {
+    border-top: 0.4px solid;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-contato {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: 70px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.info-contato img {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2cm;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 10;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+input, textarea, button {
+    border-radius: 5px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+
+
+}
+
+.conteudo-botao:hover {
+    background: #87858d;
+}
